@@ -1,0 +1,42 @@
+:root {
+  --bg-primary: #1c56ba;
+  --bg-secondary: #c40a0a;
+  --text-primary: #2b2c2e;
+  --text-secondary: #fff;  
+  --border: #5c5d5e;
+}
+
+.wrapp {
+  margin: 32px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} 
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+label, input {
+  color: var(--text-primary);
+}

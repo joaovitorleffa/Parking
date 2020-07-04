@@ -1,0 +1,9 @@
+#header {
+  padding: 8px;
+  background-color: var(--bg-primary);
+}
+
+#header h1 {
+  color: var(--text-secondary);
+  text-align: center;
+}
