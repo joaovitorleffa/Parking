@@ -3,10 +3,10 @@
         var $conn;
 
         public function openConnection() {
-            $host = 'localhost';
-            $db = 'estacionamento';
-            $user = 'root';
-            $password = '';
+            $host = 'yourHost';
+            $db = 'yourDatabaseName';
+            $user = 'yourUser';
+            $password = 'yourPassword';
             $this->conn = new mysqli($host, $user, $password, $db, "3308");
         }
 
